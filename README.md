@@ -26,14 +26,15 @@ This code was completed using the following steps.
 
 (8) - Key findings:
 
+
     1. Is accuracy the best metric to use on this data? Why or why not?
-    Answer: Yes - It shows the accuracy for each prediction individually.
+    Answer: Yes.  It shows the accuracy for each target prediction individually.  The Attrition has a better accuracy possibly due to binary data vs Department which has multiple outcomes.
     
     
     2. What activation functions did you choose for your output layers, and why?
-    Answer: Softmax for Department due to multi-classification and Sigmoid for Attrition due to binary-classification
+    Answer: Softmax for Department due to multi-classification and Sigmoid for Attrition due to binary-classification. 
 
 
     3. Can you name a few ways that this model might be improved?
-    Answer: Use Categorical_Crossentropy for Department due to multiple outcomes/categories and continue to use Binary Crossentropy for Attrition due to yes/no outcome. 
+    Answer: Use another Categorical_Crossentropy loss function for Department due to multiple outcomes/categories and continue to use Binary Crossentropy for Attrition due to yes/no outcome.
     
